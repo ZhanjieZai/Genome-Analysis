@@ -7,6 +7,7 @@
 
 !analyses/**/*.sh
 !analyses/**/*.sbatch
+!analyses/**/*.r
 
 analyses/**/canu-*/**
 analyses/**/correction/**
