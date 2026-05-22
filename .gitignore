@@ -1,0 +1,25 @@
+# ignore everything
+*
+
+# allow folders
+!*/
+
+
+!analyses/**/*.sh
+!analyses/**/*.sbatch
+
+analyses/**/canu-*/**
+analyses/**/correction/**
+analyses/**/trimming/**
+analyses/**/unitigging/**
+analyses/**/canu-scripts/**
+
+
+!plot/
+!plot/*.png
+!plot/*.jpg
+
+!*.md
+
+!.gitignore
+
